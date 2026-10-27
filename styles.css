@@ -1,0 +1,448 @@
+@import url("webfonts/Monotype_Corvisa/stylesheet.css");
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    background-color: #5e3c25;
+    float: none;
+    height: 150px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    text-align: center;
+    width: 491px;
+    height: auto;
+    right: 35%;
+    top: 28px;
+}
+footer {
+    font-size: 16px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.50);
+    color: rgba(255,255,255,1.00);
+    margin-top: -71px;
+}
+nav {
+    background-color: rgba(0,0,0,0.50);
+    text-align: center;
+    z-index: 21;
+    position: relative;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    z-index: 18;
+    background-color: rgba(0,0,0,0.50);
+
+}
+ul a li {
+    display: inline-block;
+    color: #fff;
+    padding-top: 11px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 11px;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    z-index: 11;
+}
+
+.roboto-condensed{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#center {
+	
+}
+ul a li:hover {
+    text-decoration: underline;
+    color: #4c0001;
+
+}
+#home {
+    background-size: cover;
+    background-image: url(images/home-page.jpg);
+    background-position: center center;
+}
+main {
+    height: 830px;
+    z-index: -10;
+    margin-top: -64px;
+    background-color: #764b2b;
+    position: static;
+    padding-top: 0px;
+}
+#news1 {
+    position: absolute;
+    top: 279px;
+    left: 121px;
+}
+.news1table {
+    width: 575px;
+    height: 125px;
+    position: absolute;
+    top: 663px;
+    border-radius: 1;
+    left: 120px;
+    border-style: solid;
+    border-color: #c9b094;
+}
+h2 {
+    font-family: "Monotype Corvisa";
+    color: #c9b094;
+    font-weight: lighter;
+    font-style: normal;
+    top: -18px;
+    left: 26px;
+    position: absolute;
+    font-size: 37px;
+}
+.news1line {
+    width: 467px;
+}
+#pnews1 {
+    position: absolute;
+    top: 44px;
+    color: #c9b094;
+    font-family: "Monotype Corvisa";
+    left: 21px;
+}
+
+
+
+
+#news {
+    background-color: #764b2b;
+}
+h1 {
+    position: absolute;
+    top: 197px;
+    font-family: "Monotype Corvisa";
+    color: #c9b094;
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+    left: 91px;
+    margin-top: 16px;
+}
+hr {
+    width: 1339px;
+    background-color: #c9b094;
+    margin-top: 3px;
+    border-color: #c9b094;
+}
+#news hr {
+}
+
+#news2 {
+    position: absolute;
+    top: 284px;
+    left: 778px;
+}
+#news3 {
+    position: absolute;
+    top: 284px;
+    left: 1113px;
+}
+#news4 {
+    position: absolute;
+    left: 778px;
+    top: 576px;
+}
+#news5 {
+    position: absolute;
+    left: 1113px;
+    top: 576px;
+}
+#newstable2 {
+    position: absolute;
+    top: 470px;
+    left: 778px;
+    border-style: solid;
+    width: 274px;
+    height: 68px;
+    border-color: #c9b094;
+}
+#newstable3 {
+    left: 1113px;
+    position: absolute;
+    top: 470px;
+    border-style: solid;
+    width: 274px;
+    height: 68px;
+    border-color: #c9b094;
+}
+#newstable4 {
+    position: absolute;
+    left: 778px;
+    top: 760px;
+    border-style: solid;
+    width: 274px;
+    height: 68px;
+    border-color: #c9b094;
+}
+#newstable5 {
+    top: 760px;
+    left: 1113px;
+    position: absolute;
+    border-style: solid;
+    width: 274px;
+    height: 68px;
+    border-color: #c9b094;
+}
+h3 {
+    font-family: "Monotype Corvisa";
+    color: #c9b094;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.news2txt {
+    position: absolute;
+    top: -19px;
+    left: 12px;
+}
+.news3txt {
+    position: absolute;
+    top: -19px;
+}
+.news4txt {
+    position: absolute;
+    top: -19px;
+    left: 12px;
+}
+.news5txt {
+    position: absolute;
+    top: -19px;
+    left: 12px;
+}
+iframe {
+    position: absolute;
+    top: 340px;
+    left: 340px;
+}
+.music1 {
+    position: absolute;
+    top: 390px;
+    left: 190px;
+}
+.music3 {
+    top: 390px;
+    position: absolute;
+    left: 1090px;
+}
+
+.music2 {
+    position: absolute;
+    top: 390px;
+    left: 640px;
+}
+.musictable {
+    width: 224px;
+    height: 58px;
+    border-style: solid;
+    border-color: #c9b094;
+}
+.musictxt {
+    text-align: center;
+    margin-top: 15px;
+
+
+
+
+}
+div ul {
+    font-family: "Monotype Corvisa";
+    list-style-type: none;
+    padding-left: 0px;
+}
+.list1 {
+    color: #c9b094;
+    position: absolute;
+    top: 265px;
+    left: 146px;
+}
+.list2 {
+    color: #c9b094;
+    position: absolute;
+    top: 265px;
+    left: 607px;
+}
+.list3 {
+    color: #c9b094;
+    position: absolute;
+    top: 265px;
+    left: 967px;
+}
+.list1 ul li {
+    margin-bottom: 20px;
+}
+.list2 ul li {
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.list3 ul li {
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.photo1 {
+    position: absolute;
+    top: 330px;
+    left: 121px;
+}
+.photo2 {
+    position: absolute;
+    top: 330px;
+    left: 512px;
+}
+.photo3 {
+    position: absolute;
+    top: 330px;
+    left: 1074px;
+}
+
+.mailbox {
+    width: 504px;
+    height: 350px;
+    position: absolute;
+    top: 375px;
+    border-style: solid;
+    border-color: #c9b094;
+    left: 490px;
+}
+.mailbox h1 {
+    margin: 0;
+    position: absolute;
+    top: 25px;
+    left: 205px;
+}
+.mailbox hr {
+    position: absolute;
+    top: 70px;
+    width: 350px;
+    height: 2px;
+    left: 80px;
+}
+.mailbox h3 {
+    position: absolute;
+    top: 85px;
+    left: 141px;
+}
+.mailbox div h3 {
+    color: rgba(0,0,0,1.00);
+    background-color: #c9b094;
+    position: absolute;
+    top: 204px;
+    left: 116px;
+    padding-right: 200px;
+}
+.mailbox div h5 {
+    position: absolute;
+    top: -14px;
+    left: 50px;
+}
+.signupbox {
+    width: 137px;
+    height: 28px;
+    font-family: "Monotype Corvisa";
+    color: #c9b094;
+    text-align: center;
+    border: thin solid #c9b094;
+    position: absolute;
+    top: 284px;
+    left: 190px;
+}
+
+#vinyl {
+    position: absolute;
+    top: 450px;
+    left: 185px;
+}
+.vinyltext {
+    position: absolute;
+    left: 185px;
+    top: 631px;
+}
+.postertext {
+    position: absolute;
+    left: 600px;
+    top: 703px;
+}
+h4 {
+    font-weight: lighter;
+    font-family: "Monotype Corvisa";
+    color: #c9b094;
+}
+.tshirtprice {
+    position: absolute;
+    top: 718px;
+    left: 1177px;
+}
+
+
+.vinylprice {
+    color: #c9b094;
+    font-family: "Monotype Corvisa";
+    position: absolute;
+    top: 680px;
+    left: 255px;
+}
+.posterprice {
+    color: #c9b094;
+    font-family: "Monotype Corvisa";
+    position: absolute;
+    top: 752px;
+    left: 730px;
+}
+.tshirttxt {
+    position: absolute;
+    top: 625px;
+    left: 1111px;
+}
+
+
+
+#poster {
+    position: absolute;
+    top: 365px;
+    left: 600px;
+}
+#tshirt {
+    position: absolute;
+    top: 430px;
+    left: 1111px;
+}
+.instagram-media {
+    position: absolute;
+    top: 272px;
+    left: 490px;
+}
+
+.privacybox {
+    width: 857px;
+    height: 321px;
+    border-style: solid;
+    border-color: #c9b094;
+    position: absolute;
+    top: 400px;
+    left: 325px;
+}
+.privacytxt {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    text-align: center;
+    font-size: 30px;
+}
